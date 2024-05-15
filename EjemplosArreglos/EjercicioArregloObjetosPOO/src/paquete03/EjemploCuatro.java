@@ -28,7 +28,7 @@ public class EjemploCuatro {
                     objetoCalificacion.obtenerNombreMateria(),
                     objetoCalificacion.obtenerNota(),
                     objetoCalificacion.obtenerProfesor().obtenerNombre());
-                        //al objetoCalificacion llamamos a obtenerProfesor el cula poniendo el punto podemos adquirir otro obtener que nos retorna el nombre de la clase Profesor 
+                        //al objetoCalificacion llamamos a obtenerProfesor el cula poniendo el punto podemos adquirir otro obtener que nos retorna el nombre de la clase Profesor. 
             
         }
         
