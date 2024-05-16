@@ -13,7 +13,7 @@ public class EjemploDos {
         Calificacion c = new Calificacion(10, "Computación");
         Calificacion c2 = new Calificacion(9, "Electrónica");
         
-        Calificacion [] calificaciones = {c, c2};
+        Calificacion [] calificaciones = {c, c2}; // se asigna directamente valores que son c y c2
         
         for (int i = 0; i < calificaciones.length; i++) {
             Calificacion objetoCalificacion = calificaciones[i];

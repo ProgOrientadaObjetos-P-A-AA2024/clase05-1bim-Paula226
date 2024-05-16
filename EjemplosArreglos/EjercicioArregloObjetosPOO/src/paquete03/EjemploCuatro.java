@@ -24,12 +24,13 @@ public class EjemploCuatro {
         // ciclo repetitivo
         for (int i = 0; i < calificaciones.length; i++) {
             Calificacion objetoCalificacion = calificaciones[i];
-            System.out.printf("%s - %.2f - Profesor(%s)\n", 
+            System.out.printf("%s - %.2f - Profesor(%s-%s)\n", 
                     objetoCalificacion.obtenerNombreMateria(),
                     objetoCalificacion.obtenerNota(),
-                    objetoCalificacion.obtenerProfesor().obtenerNombre());
+                    objetoCalificacion.obtenerProfesor().obtenerNombre(),
+                    objetoCalificacion.obtenerProfesor().obtenerTipo());
                         //al objetoCalificacion llamamos a obtenerProfesor el cula poniendo el punto podemos adquirir otro obtener que nos retorna el nombre de la clase Profesor. 
-            
+                        
         }
         
     }
